@@ -120,7 +120,6 @@ while correct_order:
         
     anything_else = input("Do you have any other order to make, Type 'Y' or 'N': ").lower()
     if anything_else == "n":
-        print(f"Your bill is: ${profit}")
         print("Thank you. Please visit again... 😘😘")
         correct_order = False
     else:

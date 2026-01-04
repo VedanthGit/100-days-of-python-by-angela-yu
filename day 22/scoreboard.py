@@ -35,7 +35,9 @@ class Scoreboard(Turtle):
         self.write("THE PONG GAME", align="center", font=("Courier", 36, "bold"))
         self.goto(0, -60)
 
-        if self.user_1_score > self.user_2_score:
+        if self.user_1_score == self.user_2_score:
+            winner_text = "IT's A DRAW"
+        elif self.user_1_score > self.user_2_score:
             winner_text = "PLAYER 1 WINS"
         elif self.user_2_score > self.user_1_score:
             winner_text = "PLAYER 2 WINS"

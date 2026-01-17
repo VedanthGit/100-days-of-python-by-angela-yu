@@ -39,7 +39,7 @@ if difference > 0:
 else:
     up_down = "🔽"
 
-difference_percentage = round((difference/ float(yesterday_closing_price)) * 100) + 2
+difference_percentage = round((difference/ float(yesterday_closing_price)) * 100)
 print(difference_percentage)
 
 if difference_percentage > 1:

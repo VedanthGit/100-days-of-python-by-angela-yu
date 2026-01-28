@@ -2,3 +2,5 @@
 __pycache__
 .venv
 .env
+chrome_profile/
+day 49/chrome_profile/

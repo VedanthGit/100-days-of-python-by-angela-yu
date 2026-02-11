@@ -4,3 +4,5 @@ __pycache__
 .env
 chrome_profile/
 day 49/chrome_profile/
+
+.ipynb_checkpoints

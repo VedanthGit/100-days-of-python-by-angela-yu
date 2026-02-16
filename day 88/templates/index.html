@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Remote Cafe Finder</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <script defer src="/static/app.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Remote Cafe Finder ☕💻</h1>
+        <input id="search" placeholder="Search by name or city..." />
+    </header>
+
+    <main>
+        <section id="cafes"></section>
+
+        <section class="form">
+            <h2>Add a Cafe</h2>
+            <input id="name" placeholder="Name" />
+            <input id="city" placeholder="City" />
+            <input id="seats" type="number" placeholder="Seats" />
+            <input id="map" placeholder="Google Maps URL" />
+            <label><input type="checkbox" id="wifi" /> Wi-Fi</label>
+            <label><input type="checkbox" id="power" /> Power Sockets</label>
+            <button id="add">Add Cafe</button>
+        </section>
+    </main>
+</body>
+
+</html>

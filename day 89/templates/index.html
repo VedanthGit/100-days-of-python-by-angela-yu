@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <script defer src="../static/app.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>TODO LIST</h1>
+        <form action="" id="form">
+            <input type="text" id="title" placeholder="Add a task..." />
+            <button>Add</button>
+        </form>
+        <div class="filters">
+            <button data-filter="all" class="active">All</button>
+            <button data-filter="active">Active</button>
+            <button data-filter="completed">Completed</button>
+        </div>
+    </header>
+
+    <main>
+        <ul id="list"></ul>
+    </main>
+</body>
+
+</html>

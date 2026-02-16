@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, Arial; background: #0f172a; color: #e5e7eb; }
+header { padding: 24px; background: #020617; }
+h1 { margin: 0 0 12px; }
+form { display: flex; gap: 8px; }
+input { flex: 1; padding: 10px; border-radius: 8px; border: none; }
+button { padding: 10px 14px; border-radius: 8px; border: none; background: #38bdf8; color: #020617; cursor: pointer; }
+button:hover { opacity: .9; }
+.filters { margin-top: 12px; display: flex; gap: 8px; }
+.filters button { background: #020617; color: #e5e7eb; border: 1px solid #1f2933; }
+.filters .active { background: #38bdf8; color: #020617; }
+
+main { padding: 24px; }
+li { list-style: none; background: #020617; padding: 12px; margin-bottom: 8px; border-radius: 10px; display: flex; align-items: center; justify-content: space-between; }
+li.completed span { text-decoration: line-through; opacity: .6; }
+.actions { display: flex; gap: 8px; }

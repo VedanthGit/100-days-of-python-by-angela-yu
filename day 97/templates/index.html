@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Simple Shop</title>
+    <link rel="stylesheet" href="../static/style.css" />
+    <script defer src="../static/app.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Simple Shop 🛒</h1>
+        <button id="checkout">Checkout</button>
+    </header>
+
+    <main id="products">
+        {% for p in products %}
+        <div class="card">
+            <img src="{{ p.image }}" alt="{{ p.name }}" />
+            <h3>{{ p.name }}</h3>
+            <p>${{ "%.2f"|format(p.price / 100) }}</p>
+            <button data-id="{{ p.id }}">Add to Cart</button>
+        </div>
+        {% endfor %}
+    </main>
+</body>
+
+</html>

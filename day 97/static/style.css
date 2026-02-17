@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: system-ui, Arial;
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+header {
+    padding: 16px;
+    background: #020617;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+}
+
+.card {
+    background: #020617;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    background: #38bdf8;
+    color: #020617;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .9;
+}

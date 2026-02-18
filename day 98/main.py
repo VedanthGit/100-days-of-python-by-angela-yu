@@ -6,7 +6,7 @@ SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
 EMAIL_FROM = "vedanthtest4@gmail.com"
 EMAIL_TO = "vedanthtest4@gmail.com"
-APP_PASSWORD = "jahckmccnophtcef"
+APP_PASSWORD = "your_password"
 
 
 def send_raise_email():
